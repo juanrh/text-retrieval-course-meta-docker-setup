@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e9d799c3..18d71854 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -42,7 +42,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/deps/meta-cmake/)
+ # We require Unicode 8 for the unit tests, which was added in ICU 56.1
+ FindOrBuildICU(
+   VERSION 56.1
+-  URL http://download.icu-project.org/files/icu4c/56.1/icu4c-56_1-src.tgz
++  URL https://github.com/unicode-org/icu/releases/download/release-56-1/icu4c-56_1-src.tgz
+   URL_HASH MD5=c4a2d71ff56aec5ebfab2a3f059be99d
+ )
+ 
