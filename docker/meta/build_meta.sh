@@ -5,6 +5,10 @@ set -e
 # Assuming current directory it's MeTA's root, and we are running
 # Ubuntu 14.04 setup as per https://meta-toolkit.org/setup-guide.html#ubuntu-1404-lts-build-guide
 
+rm -rf meta
+git clone https://github.com/meta-toolkit/meta.git
+pushd meta
+
 # We'll be using this version in the course
 echo "Using MeTA 2.2.0"
 git reset --hard v2.2.0

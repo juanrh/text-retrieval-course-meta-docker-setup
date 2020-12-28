@@ -36,4 +36,4 @@ RUN sudo apt-get -y install git
 COPY find_icu.patch $HOME/find_icu.patch
 COPY build_meta.sh $HOME/build_meta.sh
 
-WORKDIR /opt/meta/
+WORKDIR /opt/course/
